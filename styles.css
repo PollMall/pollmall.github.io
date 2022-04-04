@@ -1,5 +1,6 @@
 :root {
   --primary-color: #70bdc2;
+  --primary-light-color: #0ff;
   --secondary-color: #bfdddf;
   --grey: #6e6e6e;
   --grey-darker: #5a5959fd;
@@ -141,7 +142,7 @@
 }
 
 .project:hover {
-  border-color: var(--secondary-color);
+  border-color: var(--primary-light-color);
 }
 
 .project__title {
